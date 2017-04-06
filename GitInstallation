@@ -1,12 +1,13 @@
 Set Up Git:(You have to download Git on git Website then install it on you locall PC. After,
 you finished your installation you just luanch gitbash shortcut and keep following the instructions bellow)
+--You have config you Name and your Account on Git Bash by fllowing bellow Commands--
 1. git config --global user.name "Your Name"
 2. git config --global user.email "youremail@domain.com"
 
-*other commands
-3. git clone (url)
-4. git add (file names)
+*other commands after you finished your configuration
+3. git clone (url): To clone your folder or file from GitHub to our locall PC
+4. git add (file names) if you have any new file/Folder to add to GitHub just start from this Command
 5. git status(In order to check your new folder in github)
-6. git commit -m "(committed message)
-7. git push -u origin master
+6. git commit -m "(committed message)" file name: -> if you have any edition on your file/Folder, start to modify from this command
+7. git push -u origin master 
 8. git remote add origin master (url)
